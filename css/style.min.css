@@ -1,3 +1,131 @@
-body {
-  color: red;
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+input:focus {
+  border: none;
+}
+
+.header {
+  height: 105px;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #D4D4D4;
+}
+
+.header__logo {
+  padding: 35px;
+  height: 100%;
+  border-right: 1px solid #D4D4D4;
+}
+
+.header__link {
+  line-height: 0px;
+  color: #5671F6;
+  font-weight: 900;
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+.header__find:focus {
+  border: none;
+}
+
+.header__serch {
+  color: #A5A5A5;
+  border: none;
+  background-image: url("../img/search-icon.svg");
+  background-repeat: no-repeat;
+  padding-left: 38px;
+  background-position: left center;
+}
+
+.header__serch:focus {
+  border: 0px solid #555;
+}
+
+.header__menu {
+  color: #363636;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 18px;
+}
+
+.header__group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__button {
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+}
+
+.header__reg {
+  cursor: pointer;
+  padding: 42px 34px;
+  border: none;
+  background: transparent;
+  border-left: 1px solid #D4D4D4;
+  color: #5671F6;
+}
+
+.header__login {
+  cursor: pointer;
+  color: #FFFFFF;
+  padding: 42px 50px;
+  border: none;
+  background: #5671F6;
+}
+
+.header__navigation {
+  width: 100%;
+  margin-right: 44px;
+  margin-left: 34px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }

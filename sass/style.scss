@@ -1,3 +1,19 @@
-body{
-    color: red;
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
+
+
+input{
+    &:focus{
+        border: none
+    }
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+@import  "../sass/block/header";
+@import "../sass/block/hero";

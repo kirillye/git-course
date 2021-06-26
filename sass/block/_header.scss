@@ -1,0 +1,121 @@
+
+
+.header {
+    height: 105px;
+
+    // .header__row
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between ;
+        align-items: center;
+        border-bottom: 1px solid #D4D4D4;
+    }
+
+    // .header__logo
+
+    &__logo {
+        padding: 35px;
+        height: 100%;
+        border-right: 1px solid #D4D4D4;
+    }
+
+    // .header__link
+
+    &__link {
+
+        line-height: 0px;
+        color: #5671F6;
+        font-weight: 900;
+        font-size: 30px;
+        text-decoration: none;
+        line-height: 35px;
+    }
+
+    // .header__find
+
+    &__find {
+        &:focus{
+            border: none;
+        }
+    }
+
+    // .header__serch
+
+    &__serch {
+        
+        color: #A5A5A5;
+        border: none;
+        background-image: url("../img/search-icon.svg");
+        background-repeat: no-repeat;
+        padding-left: 38px;
+        background-position: left center;
+        &:focus{
+            border: 0px solid #555;
+        }
+    }
+
+    // .header__nav
+
+    &__nav {}
+
+    // .header__menu
+
+    &__menu {
+        color: #363636;
+        font-size: 18px;
+        text-decoration: none;
+        display: inline-block;
+        padding-right: 18px;
+    }
+
+    // .header__group
+
+    &__group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .header__button
+
+    &__button {
+        
+        font-size: 18px;
+        line-height: 21px;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    // .header__reg
+
+    &__reg {
+        cursor: pointer;
+        padding: 42px 34px;
+        border: none;
+        background: transparent;
+        border-left: 1px solid #D4D4D4;
+        color: #5671F6;
+    }
+
+    &__login{
+        cursor: pointer;
+        color: #FFFFFF;
+        padding: 42px 50px;
+        border: none;
+        background: #5671F6;
+    }
+
+    &__navigation {
+        width: 100%;
+        margin-right: 44px;
+        margin-left: 34px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
