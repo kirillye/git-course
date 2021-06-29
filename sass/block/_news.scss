@@ -1,0 +1,47 @@
+.news {
+    background: #F3F3F3;
+    padding: 70px 0px 100px;
+
+    // .news__title
+
+    &__title {
+        margin-bottom: 65px;
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    // .news__row
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    // .news__item
+
+    &__item {
+        width: 260px;
+        background: #fff;
+        padding: 30px 30px;
+    }
+
+    // .news__data
+
+    &__data {
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        padding-bottom: 15px;
+    }
+
+    // .news__name
+
+    &__name {
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+.container {}

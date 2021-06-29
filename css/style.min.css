@@ -1,17 +1,3 @@
-* {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-}
-
-input:focus {
-  border: none;
-}
-
-.container {
-  max-width: 1110px;
-  margin: 0 auto;
-}
-
 .header {
   height: 105px;
 }
@@ -286,4 +272,118 @@ input:focus {
 
 .hero__info-right {
   text-align: right;
+}
+
+.actors {
+  padding: 100px 0px 70px;
+}
+
+.actors__btn {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.actors__btn--actors {
+  margin-right: 30px;
+}
+
+.actors__block {
+  margin-top: 60px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.actors__item {
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+}
+
+.actors__image {
+  display: block;
+  padding-right: 25px;
+}
+
+.actors__name {
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  color: #5671F6;
+}
+
+.actors__name--inglish {
+  color: #A5A5A5;
+  font-size: 16px;
+}
+
+#actorsVisible {
+  display: hidden;
+}
+
+.news {
+  background: #F3F3F3;
+  padding: 70px 0px 100px;
+}
+
+.news__title {
+  margin-bottom: 65px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.news__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news__item {
+  width: 260px;
+  background: #fff;
+  padding: 30px 30px;
+}
+
+.news__data {
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  padding-bottom: 15px;
+}
+
+.news__name {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+input:focus {
+  border: none;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
 }
